@@ -1,0 +1,39 @@
+h1 {
+    color: white;
+    background-color: purple;
+  }
+
+  p:hover {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  div {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  table {
+      border-collapse: collapse;
+      width: 100%;
+      height: 25%;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    
+    th{
+        background-color: purple;
+        color: white;
+        border: solid 1px rgba(207, 203, 203, 0.5);
+        padding: 1%;
+    }
+    
+    td {
+        border: solid 1px rgba(207, 203, 203, 0.5);
+        padding: 1%;
+    }
+    tr:nth-child(odd){
+        background-color: rgba(184, 179, 179, 0.3);
+    }
